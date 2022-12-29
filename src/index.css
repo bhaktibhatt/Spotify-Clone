@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    .sidebar{
+        @apply fixed top-0 left-0 w-80 h-screen m-0 flex flex-col bg-black text-white;
+    }
+    .side-ele{
+        @apply flex py-2 transition duration-300 text-gray hover:text-white;
+    }
+    .nav-btn{
+        @apply flex py-2 transition duration-300 opacity-70 hover:opacity-100;
+    }
+    .nav-btn-playlist{
+        @apply mx-5 h-6 w-6 bg-white rounded-sm flex justify-center items-center;
+    }
+    .nav-btn-liked-s{
+        @apply mx-5 h-6 w-6 bg-gradient-to-br from-dark_blue to-light_green rounded-sm flex justify-center items-center;
+    }
+    .nav-btn-ep{
+        @apply mx-5 h-6 w-6 text-green bg-dark_green rounded-sm flex justify-center items-center ;
+    }
+}
