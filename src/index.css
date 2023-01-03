@@ -9,16 +9,16 @@
     .side-ele{
         @apply flex py-2 transition duration-300 text-gray hover:text-white;
     }
-    .nav-btn{
+    .side-btn{
         @apply flex py-2 transition duration-300 opacity-70 hover:opacity-100;
     }
-    .nav-btn-playlist{
+    .playlist-svg{
         @apply mx-5 h-6 w-6 bg-white rounded-sm flex justify-center items-center;
     }
-    .nav-btn-liked-s{
+    .liked-svg{
         @apply mx-5 h-6 w-6 bg-gradient-to-br from-dark_blue to-light_green rounded-sm flex justify-center items-center;
     }
-    .nav-btn-ep{
+    .ep-svg{
         @apply mx-5 h-6 w-6 text-green bg-dark_green rounded-sm flex justify-center items-center ;
     }
 }
