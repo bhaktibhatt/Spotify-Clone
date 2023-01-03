@@ -1,1 +1,1 @@
-#Spotify Clone using tailwind and React
+# Spotify Clone using tailwind and React
