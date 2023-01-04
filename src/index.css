@@ -4,7 +4,7 @@
 
 @layer base{
     .sidebar{
-        @apply fixed top-0 left-0 w-80 h-screen m-0 flex flex-col bg-black text-white;
+        @apply fixed top-0 left-0 w-80 h-screen m-0 flex flex-col bg-black text-white z-20;
     }
     .side-ele{
         @apply flex py-2 transition duration-300 text-gray hover:text-white;
