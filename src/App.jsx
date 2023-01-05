@@ -9,7 +9,6 @@ function App() {
       <Sidebar/>
       <Home/>
       <NavBar/>
-      <SongCard/>
     </div>
     
   )
